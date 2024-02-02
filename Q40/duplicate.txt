@@ -1,0 +1,76 @@
+0 Sure, here is an overview of the basic file handling functions and attributes in Python for the different modes:
+1 
+2 ### File Modes:
+3 
+4 1. **Read mode ('r'):**
+5    - `open(filename, 'r')`: Opens a file for reading.
+6    - `read(size=-1)`: Reads and returns the specified number of bytes, or the entire file if size is not provided.
+7    - `readline(size=-1)`: Reads and returns the next line from the file, or the specified number of bytes.
+8    - `readlines(hint=-1)`: Reads and returns a list of lines from the file, or the specified number of bytes.
+9 
+10 2. **Write mode ('w'):**
+11    - `open(filename, 'w')`: Opens a file for writing. Creates a new file or truncates an existing file.
+12    - `write(string)`: Writes the specified string to the file.
+13    - `writelines(lines)`: Writes a list of lines to the file.
+14 
+15 3. **Append mode ('a'):**
+16    - `open(filename, 'a')`: Opens a file for appending. Creates a new file or appends to an existing file.
+17    - `write(string)`: Writes the specified string to the end of the file.
+18    - `writelines(lines)`: Writes a list of lines to the end of the file.
+19 
+20 4. **Binary mode ('b'):**
+21    - When added to any mode ('rb', 'wb', 'ab'), it opens the file in binary mode. This is used for non-text files.
+22 
+23 5. **Read and Write mode ('r+'):**
+24    - `open(filename, 'r+')`: Opens a file for both reading and writing.
+25 
+26 6. **Write and Read mode ('w+'):**
+27    - `open(filename, 'w+')`: Opens a file for both writing and reading.
+28 
+29 7. **Append and Read mode ('a+'):**
+30    - `open(filename, 'a+')`: Opens a file for both appending and reading.
+31 
+32 ### File Object Attributes:
+33 
+34 - `file.closed`: Returns `True` if the file is closed, `False` otherwise.
+35 - `file.mode`: Returns the access mode with which the file was opened.
+36 - `file.name`: Returns the name of the file.
+37 - `file.readable()`: Returns `True` if the file is readable.
+38 - `file.writable()`: Returns `True` if the file is writable.
+39 
+40 ### Example:
+41 
+42 ```python
+43 # Reading from a file
+44 with open('example.txt', 'r') as file:
+45     content = file.read()
+46     print(content)
+47 
+48 # Writing to a file
+49 with open('example.txt', 'w') as file:
+50     file.write('Hello, World!')
+51 
+52 # Appending to a file
+53 with open('example.txt', 'a') as file:
+54     file.write('\nAppending a new line.')
+55 
+56 # Reading and Writing
+57 with open('example.txt', 'r+') as file:
+58     content = file.read()
+59     file.write('\nAdding a new line at the end.')
+60     file.seek(0)  # Move the cursor to the beginning
+61     new_content = file.read()
+62     print(new_content)
+63 ```
+64 
+65 Remember to always use the `with` statement when working with files. It automatically takes care of closing the file, even if an exception occurs.
+66 
+67 
+68 
+69 
+70 
+71 
+72 
+73 
+74 
+75 9874930508

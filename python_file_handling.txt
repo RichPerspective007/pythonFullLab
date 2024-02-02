@@ -1,0 +1,76 @@
+Sure, here is an overview of the basic file handling functions and attributes in Python for the different modes:
+
+### File Modes:
+
+1. **Read mode ('r'):**
+   - `open(filename, 'r')`: Opens a file for reading.
+   - `read(size=-1)`: Reads and returns the specified number of bytes, or the entire file if size is not provided.
+   - `readline(size=-1)`: Reads and returns the next line from the file, or the specified number of bytes.
+   - `readlines(hint=-1)`: Reads and returns a list of lines from the file, or the specified number of bytes.
+
+2. **Write mode ('w'):**
+   - `open(filename, 'w')`: Opens a file for writing. Creates a new file or truncates an existing file.
+   - `write(string)`: Writes the specified string to the file.
+   - `writelines(lines)`: Writes a list of lines to the file.
+
+3. **Append mode ('a'):**
+   - `open(filename, 'a')`: Opens a file for appending. Creates a new file or appends to an existing file.
+   - `write(string)`: Writes the specified string to the end of the file.
+   - `writelines(lines)`: Writes a list of lines to the end of the file.
+
+4. **Binary mode ('b'):**
+   - When added to any mode ('rb', 'wb', 'ab'), it opens the file in binary mode. This is used for non-text files.
+
+5. **Read and Write mode ('r+'):**
+   - `open(filename, 'r+')`: Opens a file for both reading and writing.
+
+6. **Write and Read mode ('w+'):**
+   - `open(filename, 'w+')`: Opens a file for both writing and reading.
+
+7. **Append and Read mode ('a+'):**
+   - `open(filename, 'a+')`: Opens a file for both appending and reading.
+
+### File Object Attributes:
+
+- `file.closed`: Returns `True` if the file is closed, `False` otherwise.
+- `file.mode`: Returns the access mode with which the file was opened.
+- `file.name`: Returns the name of the file.
+- `file.readable()`: Returns `True` if the file is readable.
+- `file.writable()`: Returns `True` if the file is writable.
+
+### Example:
+
+```python
+# Reading from a file
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+
+# Writing to a file
+with open('example.txt', 'w') as file:
+    file.write('Hello, World!')
+
+# Appending to a file
+with open('example.txt', 'a') as file:
+    file.write('\nAppending a new line.')
+
+# Reading and Writing
+with open('example.txt', 'r+') as file:
+    content = file.read()
+    file.write('\nAdding a new line at the end.')
+    file.seek(0)  # Move the cursor to the beginning
+    new_content = file.read()
+    print(new_content)
+```
+
+Remember to always use the `with` statement when working with files. It automatically takes care of closing the file, even if an exception occurs.
+
+
+
+
+
+
+
+
+
+9874930508

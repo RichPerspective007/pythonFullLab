@@ -1,0 +1,202 @@
+Per Unit Cost = 25
+
+Name of the Customer: One
+- Monthly Bills:
+	-  January:
+	  	- Units Consumed = 453
+	  	- Bill = 11325
+	-  February:
+	  	- Units Consumed = 152
+	  	- Bill = 3800
+	-  March:
+	  	- Units Consumed = 157
+	  	- Bill = 3925
+	-  April:
+	  	- Units Consumed = 123
+	  	- Bill = 3075
+	-  May:
+	  	- Units Consumed = 310
+	  	- Bill = 7750
+	-  June:
+	  	- Units Consumed = 428
+	  	- Bill = 10700
+	-  July:
+	  	- Units Consumed = 111
+	  	- Bill = 2775
+	-  August:
+	  	- Units Consumed = 391
+	  	- Bill = 9775
+	-  September:
+	  	- Units Consumed = 154
+	  	- Bill = 3850
+	-  October:
+	  	- Units Consumed = 364
+	  	- Bill = 9100
+	-  November:
+	  	- Units Consumed = 355
+	  	- Bill = 8875
+	-  December:
+	  	- Units Consumed = 210
+	  	- Bill = 5250
+
+
+Name of the Customer: Two
+- Monthly Bills:
+	-  January:
+	  	- Units Consumed = 353
+	  	- Bill = 8825
+	-  February:
+	  	- Units Consumed = 190
+	  	- Bill = 4750
+	-  March:
+	  	- Units Consumed = 371
+	  	- Bill = 9275
+	-  April:
+	  	- Units Consumed = 273
+	  	- Bill = 6825
+	-  May:
+	  	- Units Consumed = 133
+	  	- Bill = 3325
+	-  June:
+	  	- Units Consumed = 126
+	  	- Bill = 3150
+	-  July:
+	  	- Units Consumed = 321
+	  	- Bill = 8025
+	-  August:
+	  	- Units Consumed = 345
+	  	- Bill = 8625
+	-  September:
+	  	- Units Consumed = 284
+	  	- Bill = 7100
+	-  October:
+	  	- Units Consumed = 431
+	  	- Bill = 10775
+	-  November:
+	  	- Units Consumed = 286
+	  	- Bill = 7150
+	-  December:
+	  	- Units Consumed = 384
+	  	- Bill = 9600
+
+
+Name of the Customer: Three
+- Monthly Bills:
+	-  January:
+	  	- Units Consumed = 138
+	  	- Bill = 3450
+	-  February:
+	  	- Units Consumed = 197
+	  	- Bill = 4925
+	-  March:
+	  	- Units Consumed = 494
+	  	- Bill = 12350
+	-  April:
+	  	- Units Consumed = 117
+	  	- Bill = 2925
+	-  May:
+	  	- Units Consumed = 272
+	  	- Bill = 6800
+	-  June:
+	  	- Units Consumed = 304
+	  	- Bill = 7600
+	-  July:
+	  	- Units Consumed = 175
+	  	- Bill = 4375
+	-  August:
+	  	- Units Consumed = 446
+	  	- Bill = 11150
+	-  September:
+	  	- Units Consumed = 451
+	  	- Bill = 11275
+	-  October:
+	  	- Units Consumed = 116
+	  	- Bill = 2900
+	-  November:
+	  	- Units Consumed = 405
+	  	- Bill = 10125
+	-  December:
+	  	- Units Consumed = 228
+	  	- Bill = 5700
+
+
+Name of the Customer: Four
+- Monthly Bills:
+	-  January:
+	  	- Units Consumed = 213
+	  	- Bill = 5325
+	-  February:
+	  	- Units Consumed = 344
+	  	- Bill = 8600
+	-  March:
+	  	- Units Consumed = 443
+	  	- Bill = 11075
+	-  April:
+	  	- Units Consumed = 163
+	  	- Bill = 4075
+	-  May:
+	  	- Units Consumed = 420
+	  	- Bill = 10500
+	-  June:
+	  	- Units Consumed = 280
+	  	- Bill = 7000
+	-  July:
+	  	- Units Consumed = 325
+	  	- Bill = 8125
+	-  August:
+	  	- Units Consumed = 411
+	  	- Bill = 10275
+	-  September:
+	  	- Units Consumed = 231
+	  	- Bill = 5775
+	-  October:
+	  	- Units Consumed = 345
+	  	- Bill = 8625
+	-  November:
+	  	- Units Consumed = 224
+	  	- Bill = 5600
+	-  December:
+	  	- Units Consumed = 497
+	  	- Bill = 12425
+
+
+Name of the Customer: Five
+- Monthly Bills:
+	-  January:
+	  	- Units Consumed = 495
+	  	- Bill = 12375
+	-  February:
+	  	- Units Consumed = 163
+	  	- Bill = 4075
+	-  March:
+	  	- Units Consumed = 474
+	  	- Bill = 11850
+	-  April:
+	  	- Units Consumed = 494
+	  	- Bill = 12350
+	-  May:
+	  	- Units Consumed = 357
+	  	- Bill = 8925
+	-  June:
+	  	- Units Consumed = 253
+	  	- Bill = 6325
+	-  July:
+	  	- Units Consumed = 135
+	  	- Bill = 3375
+	-  August:
+	  	- Units Consumed = 353
+	  	- Bill = 8825
+	-  September:
+	  	- Units Consumed = 397
+	  	- Bill = 9925
+	-  October:
+	  	- Units Consumed = 433
+	  	- Bill = 10825
+	-  November:
+	  	- Units Consumed = 219
+	  	- Bill = 5475
+	-  December:
+	  	- Units Consumed = 397
+	  	- Bill = 9925
+
+
